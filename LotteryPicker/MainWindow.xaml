@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         ResizeMode="NoResize"
         d:DataContext="{d:DesignInstance Type=local:MainWindowViewModel}"
-        Height="275" Width="400"
+        Height="275" MinWidth="400"
         WindowStartupLocation="CenterScreen"
+        SizeToContent="Width"
         Title="Lottery Numbers Generator">
 
     <Window.Resources>
